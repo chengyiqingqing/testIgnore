@@ -1,29 +1,66 @@
-# 哪些是不上传的
+# OSX
+/local.properties
+/captures
+.externalNativeBuild
+*.DS_Store
 
-# (1)xxx/  忽略xxx文件夹及该文件夹下所有文件 (生效了)
+# Gradle files
+build/
 .gradle/
+*/build/
 
-# (2)xxx/  忽略xxx文件夹及该文件夹下所有文件 （未生效:.idea/caches，.idea/libraries，这连个文件没了)
+# IDEA
+*.iml
 .idea/
-
-# （3）忽略以.properties结尾的文件 (一半：未生效)
-/*.properties
-
-# （4）忽略以gradlew的文件(未生效)
-/gradlew
-
-# （5）忽略以/gradlew.bat的文件 （x）
-/gradlew.bat
-
-
-#（origin）/xxx 忽略xxx文件（生效了）
-/build
-
-.idea/
+.idea/.name
 .idea/encodings.xml
-.idea/gradle.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
 .idea/misc.xml
 .idea/modules.xml
-.idea/runConfigurations.xml
+.idea/scopes/scope_settings.xml
 .idea/vcs.xml
 .idea/workspace.xml
+.idea/libraries
+
+# Built application files
+*.apk
+*.ap_
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+.settings
+.classpath
+
+coverage
+coverage.ec
+coverage.em
+
+junit-report.xml
+lint-results.*ml
+lint-results_files
+
+*~
+
+*.iws
+
+atlassian-ide-plugin.xml
+
+#target
+
+out
+
+build.xml
+
+proguard-project.txt
+
