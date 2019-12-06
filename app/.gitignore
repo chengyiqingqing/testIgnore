@@ -1,0 +1,20 @@
+# 哪些是不上传的
+
+# (1)xxx/  忽略xxx文件夹及该文件夹下所有文件
+.gradle/
+
+# (2)xxx/  忽略xxx文件夹及该文件夹下所有文件
+.idea/
+
+# （3）忽略以.properties结尾的文件
+/*.properties
+
+# （4）忽略以gradlew的文件
+/gradlew
+
+# （5）忽略以/gradlew.bat的文件
+/gradlew.bat
+
+
+#（origin）/xxx 忽略xxx文件
+/build
