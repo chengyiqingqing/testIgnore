@@ -19,11 +19,11 @@
 #（origin）/xxx 忽略xxx文件（生效了）
 /build
 
-.idea/
-.idea/encodings.xml
-.idea/gradle.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/runConfigurations.xml
-.idea/vcs.xml
-.idea/workspace.xml
+# .idea/
+# .idea/encodings.xml
+# .idea/gradle.xml
+# .idea/misc.xml
+# .idea/modules.xml
+# .idea/runConfigurations.xml
+# .idea/vcs.xml
+# .idea/workspace.xml
