@@ -1,5 +1,6 @@
 *.iml
 .gradle
+# 新加忽略idea下的文件
 .idea
 /local.properties
 /.idea/caches
