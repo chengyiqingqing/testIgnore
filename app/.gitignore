@@ -1,29 +1,4 @@
-# 哪些是不上传的
-
-# (1)xxx/  忽略xxx文件夹及该文件夹下所有文件 (生效了)
-.gradle/
-
-# (2)xxx/  忽略xxx文件夹及该文件夹下所有文件 （未生效:.idea/caches，.idea/libraries，这连个文件没了)
-.idea/
-
-# （3）忽略以.properties结尾的文件 (一半：未生效)
-/*.properties
-
-# （4）忽略以gradlew的文件(未生效)
-/gradlew
-
-# （5）忽略以/gradlew.bat的文件 （x）
-/gradlew.bat
-
-
 #（origin）/xxx 忽略xxx文件（生效了）
 /build
 
-.idea/
-.idea/encodings.xml
-.idea/gradle.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/runConfigurations.xml
-.idea/vcs.xml
-.idea/workspace.xml
+
